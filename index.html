@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- name section -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 style="font-size: 65px; font-family: Garamond;"><strong>Shriharsh Pattar</strong></h1>
+            <!-- <span style="float: right;">
+                <img src="images/jumbo.jpg" alt="image" style="">
+            </span> -->
+            <p style="font-size: 20px; font-family:Garamond ;"><strong>B.E Computer Science</strong></p>
+        </div>
+        <!-- navigation pills section -->
+        <div class="container">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#aboutme"><strong>About</strong></a></li>
+                <li class="active"><a href="#skills"><strong>Skills</strong></a></li>
+                <li class="active"><a href="#project"><strong>Projects</strong></a></li>
+                <li class="active"><a href="#exp"><strong>Experience</strong></a></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+
+    <!-- About Me section -->
+    <div class="container-fluid" id="aboutme">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2><strong>About Me</strong></h2><br>
+                <h4><strong>Shriharsh Pattar</strong></h4>
+                <p id="abt">Web Developer with sound knowledge in Frontend Development and framework such as Bootstrap.
+                </p>
+                <p id="abt">Also very good knowledge in Java with Strong basics about both core and advanced Java.
+                    I have graduated in Bachelor of Computer Science Engineering from Smt. Kamala and Sri Venkappa M
+                    Agadi College of Engineering and Technology.
+                </p>
+                <p id="abt">You can Download my attached Resume by clicking the download button below <strong>⬇</strong>
+                </p>
+                <a class="btn btn-default btn-lg" href="images/Shriharsh Pattar-BE.pdf" download>Download CV</a>
+            </div>
+
+            <img src="images/pic1.jpg" alt="pic1" class="img-responsive"
+                style="height: auto; max-width: 420px; width: max-content; max-height: 420px;">
+
+        </div>
+    </div>
+    <br>
+
+    <!-- Skills section -->
+    <div class="container-fluid" id="skills">
+        <h2 style="text-align: center; color: whitesmoke;">Skills</h2>
+        <br>
+        <div class="container-fluid bg-3 text-center" style="display: block;"><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img id="img" src="images/java.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <img id="img" src="images/py.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <img id="img" src="images/mysql.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img id="img" src="images/html5.jpg" class="img-responsive" style="width:100%" alt="Image"
+                        name="img4">
+                </div>
+                <div class="col-sm-4">
+                    <img id="img" src="images/css3.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+                <div class="col-sm-4">
+                    <img id="img" src="images/JavaScript-logo.jpg" class="img-responsive" style="width:100%"
+                        alt="Image">
+                </div>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img id="img" src="images/bootstrap.jpg" class="img-responsive" style="width:100%" alt="Image">
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <br>
+
+    <!-- project carousel -->
+    <div class="container" id="project">
+        <h2 style="color: aliceblue; text-align: center;">Projects Preview</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/a1.jpg" class="img-responsive" alt="Los Angeles" style="width:100%;">
+                </div>
+
+                <div class="item">
+                    <img src="images/a2.png" class="img-responsive" alt="Chicago" style="width:100%;">
+                </div>
+
+                <!-- <div class="item">
+                    <img src="images/a5.jpg" class="img-responsive" alt="New york" style="width:100%;">
+                </div> -->
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <br>
+
+    <div class="container-fluid" id="exp">
+        <h2 style="color: whitesmoke; text-align: center;">Projects</h2><br><br>
+        <div class="row">
+            <div class="col-sm-6" style="color: whitesmoke; text-align: justify;">
+                <img src="images/a1.jpg" class="img-responsive" alt="Kodnest"
+                    style="width: 100%; height: auto; max-width: 400px; justify-content: space-around;">
+                <!-- </div>
+            <div class="col-sm-6" style="color: whitesmoke; font-family: Garamond;"> -->
+                <h3 style="font-size: 30px;"><strong>Guess the Number</strong></h3>
+                <h4>Basic Javascript project</h4>
+                <h4>This project contains basic beginner DOM manipulations, and is good for learning the Javascript on
+                    browser. <br> A random number generated should be guessed by the user, everytime a user answers
+                    wrong the
+                    score decreases by 1. When the score hits 0 the game is lost. If the number is guessed correctly the
+                    current score becomes the highscore. Again button is used to reset the game. The given figure
+                    explains the winning of the user.</h4>
+                <h4><strong>Tech-Stack:</strong> HTML, CSS, Javascript.</h4>
+            </div>
+            <div class="col-sm-6" style="color: whitesmoke; text-align: justify;">
+                <img src="images/a2.png" class="img-responsive" alt="Kodnest"
+                    style="width: 100%; height: auto; max-width: 400px; justify-content: space-around;">
+                <!-- </div>
+            <div class="col-sm-6" style="color: whitesmoke; font-family: Garamond;"> -->
+                <h3 style="font-size: 30px;"><strong>Pet Shop</strong></h3>
+                <h4>Django E-commerce Project</h4>
+                <h4>This project contains the E-commerce website for pet adoption and the pet accessory purchase. <br>
+                    The project has 2 modules: User and Owner. The Owner can add pets for adoption, add pet accessories
+                    for purchase. The User can request for adopting a pet and receive a call from owner, and also
+                    purchase the pet products. All the forms of the project has been validated. Trainer's details is
+                    also
+                    provided by owner for pet training.</h4>
+                <h4><strong>Tech-Stack:</strong> HTML, CSS, Javascript, Django, MySQL.</h4>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Experience Section -->
+    <div class="container-fluid" id="exp">
+        <h2 style="color: whitesmoke; text-align: center;">Experience</h2><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="images/kod.jpg" class="img-responsive" alt="Kodnest"
+                    style="width: 100%; height: auto; max-width: 200px;">
+            </div>
+            <div class="col-sm-6" style="color: whitesmoke; font-family: Garamond;">
+                <h3 style="font-size: 30px;"><strong>Kodnest Technologies</strong></h3>
+                <h4>Full Stack Developer Intern</h4>
+                <h4>July 2023 - Present</h4>
+                <h4><strong>Tech-Stack:</strong> Java, MySQL, Springboot, JSP</h4>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container-fluid" style="color: whitesmoke;">
+        <h2 class="text-center">CONTACT</h2><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4><span class="glyphicon glyphicon-phone"></span> +91 7406350699</h4>
+                <h4 type="email"><span class="glyphicon glyphicon-envelope"></span> mailtoshriharshpattar@gmail.com</h4>
+                <h4><a href="https://github.com/Shriharsh07">Github: Shriharsh07</a></h4>
+                <h4><a href="www.linkedin.com/in/shriharsh-pattar">Linked-In: Shriharsh Pattar</a></h4>
+            </div>
+            <div class="col-sm-6">
+                <img src="images/ft.jpg" alt="footer" class="img-responsive"
+                    style="width: 100%; height: auto; max-width: 400px; max-height: 350px;">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

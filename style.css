@@ -1,0 +1,136 @@
+body {
+    background: url(images/1385570.jpg);
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    width: max-content;
+    /* background-color: #9fb0ef; */
+    color: #000000;
+    padding: 90px 25px;
+    margin: 1%;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+    /* background-color: #D4EFDF; */
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.thumbnail {
+    border: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.caption {
+    font-family: Garamond;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+h4 {
+    font-family: Garamond;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: Garamond;
+    font-size: 50px;
+}
+
+#logo {
+    background-color: #D4EFDF;
+    border: 0;
+}
+
+#abt {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+#edu {
+    background-color: #AED6F1;
+}
+
+/* #skills {
+    background-color: #F6DDCC;
+} */
+
+#pgLabel {
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+#aboutme {
+    color: white;
+}
+
+.active {
+    color: #000000;
+}
+
+#img {
+    max-height: 250px;
+    max-width: 240px;
+    display: inline-block;
+}
+
+#img:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
